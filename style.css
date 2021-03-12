@@ -136,15 +136,114 @@ footer {background-color: #333E4F;height: 200px;justify-content: center;margin: 
 footer .touch .you {margin-right: 10px;}
 .card23 h4{margin-top: 22px;}
 @media screen and (max-width:780px) {
-  nav {
-    display: block;
-    float: right;
+  
+  .text {
+    width: 100%;
   }
+  .text {
+    float: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .pic {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .pic img {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    margin-left: 0;
+  }
+  .logo img {
+    width: 100%;
+  }
+
+  .buy {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  button img {
+    width: 20%;
+  }
+  .content {
+    height: 30px;
+  }
+
   ul li {
     list-style-type: none;
-    float: right;
+    float: left;
     margin-left: 60px;
     display:block;
   }
+  
+  nav {
+    float: right;
+  }
+  aside {
+    width: 100%;
+    overflow: hidden;
+    float: none;
+    display: visible;
+  }
+  .cart {
+    margin-top: 200px;
+  }
+  .fit aside {
+    display: inline;
+  }
+  .fit {
+    width:100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(192, 191, 191);
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  .fit img {
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  aside img {
+    width: 90%;
+    float: none;
+    margin-right: 0;
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  .cart {
+    overflow: hidden;
+    height: 2000px;
+  }
+  .clash {
+    float: none;
+    width: 100%;
+  }
+
+
+
+  .card {
+    width: 100%;
+    
+    height: 500px;border: 0;margin-top: 60px;float: none;margin-right: 0;
+  }
+  .card3 {margin-right: 0;}
+  .part1 {height: 60%;background-color: #d3dad5cb;border-radius: 20px;}
+  .part1 img {width: 70%;display: block;margin-left: auto;margin-right: auto;}
+  .part2 h3 {margin-top: 15px;}
+  .middle .buy {width: 80%;display: inline-block;margin-left: 51px;}
+  .middle {overflow: hidden;margin-bottom: 80px;}
+  footer .touch {text-align: center;font-size: 24px;font-weight: 700;color:#3F729B;margin: auto 0;}
+  .END {float: none;margin: 40% 38%;color:#3F729B;}
+  
+  footer {background-color: #333E4F;height: 200px;justify-content: center;margin: 0 auto; padding-top: 20px;margin-bottom: 0;padding-bottom: 1%;}
+  footer .touch .you {margin-right: 10px;}
+  .card23 h4{margin-top: 22px;}
+
+
 
 }   
