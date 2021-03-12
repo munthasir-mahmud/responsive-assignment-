@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 45px 150px;
+}
+ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 60px;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+  float: right;
+}
+
+.logo img {
+  width: 20%;
+}
+section {
+  margin-top: 40px;
+}
+section p {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.moon {
+  font-size: 65px;
+  font-weight: bold;
+}
+.text {
+  width: 50%;
+}
+.text {
+  float: left;
+  margin-top: 100px;
+}
+.pic {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+.pic img {
+  width: 70%;
+  margin-right: 140px;
+  float: right;
+  margin-left: 40px;
+}
+.bag {
+  position: absolute;
+  width: 0%;
+}
+button {
+  background-color: darkblue;
+  padding: 15px;
+  border-radius: 10px;
+}
+.buy {
+  text-transform: uppercase;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+}
+button img {
+  width: 20%;
+}
+.content {
+  height: 30px;
+}
+.cart {
+  margin-top: 200px;
+}
+.fit aside {
+  display: inline-flexbox;
+}
+.fit {
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(192, 191, 191);
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.fit img {
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+aside {
+  width: 50%;
+  overflow: hidden;
+  float: left;
+  display: inline;
+}
+aside img {
+  width: 70%;
+  float: left;
+  margin-right: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.cart {
+  overflow: hidden;
+  height: 570px;
+}
+.clash {
+  float: left;
+  width: 50%;
+}
+.card {
+  width: 30%;
+  
+  height: 500px;border: 0;margin-top: 60px;float: left;margin-right: 5%;
+}
+.card3 {margin-right: 0;}
+.part1 {height: 60%;background-color: #d3dad5cb;border-radius: 20px;}
+.part1 img {width: 70%;display: block;margin-left: auto;margin-right: auto;}
+.part2 h3 {margin-top: 15px;}
+.middle .buy {width: 60%;display: inline-block;margin-left: 51px;}
+.middle {overflow: hidden;margin-bottom: 80px;}
+footer .touch {text-align: center;font-size: 24px;font-weight: 700;color:#3F729B;margin: auto 0;}
+.END {float: none;margin: 40% 38%;color:#3F729B;}
+
+footer {background-color: #333E4F;height: 200px;justify-content: center;margin: 0 auto; padding-top: 20px;margin-bottom: 0;padding-bottom: 1%;}
+footer .touch .you {margin-right: 10px;}
+.card23 h4{margin-top: 22px;}
+@media screen and (max-width:780px) {
+  nav {
+    display: block;
+    float: right;
+  }
+  ul li {
+    list-style-type: none;
+    float: right;
+    margin-left: 60px;
+    display:block;
+  }
+
+}   
