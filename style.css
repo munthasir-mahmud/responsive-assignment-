@@ -238,7 +238,7 @@ footer .touch .you {margin-right: 10px;}
   .middle .buy {width: 80%;display: inline-block;margin-left: 51px;}
   .middle {overflow: hidden;margin-bottom: 80px;}
   footer .touch {text-align: center;font-size: 24px;font-weight: 700;color:#3F729B;margin: auto 0;}
-  .END {float: none;margin: 40% 38%;color:#3F729B;}
+  .END {float: none;margin:autogit;color:#3F729B;}
   
   footer {background-color: #333E4F;height: 200px;justify-content: center;margin: 0 auto; padding-top: 20px;margin-bottom: 0;padding-bottom: 1%;}
   footer .touch .you {margin-right: 10px;}
